@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+}
+
+header{
+	height: 100vh;
+	background-image: url(../img/roadforest.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	margin-bottom: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	max-width: 600px;
+	margin: 0 auto 20px;
+}
+
+#landing{
+	font-size: 28px;
+	font-family: Arvo;
+	border: 8px solid #dadfe1;
+	padding: 15px;
+	color: #dadfe1;
+}
