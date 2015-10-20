@@ -62,3 +62,53 @@ p{
 #navigation a:hover{
 	color: hsl(190, 100%, 80%)
 }
+
+#foot{
+	background-color: #f2f2f2;
+	overflow: auto;
+}
+
+#lorem1{
+	float: left;
+    width: 23%;
+    padding-left: 70px;
+    padding-top: 30px;
+	line-height: 1.5;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Vollkorn;
+}
+
+#lorem2{
+	float: right;
+	width: 23%;
+	padding-left: 70px;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+#lorem3{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+#line{
+	opacity: 0.2;
+}
+
+hr{
+	opacity: 0.5;
+	clear: both;
+}
+
+#copyright{
+	text-align: center;
+	opacity: 0.5;
+	width: auto;
+	clear: both;
+}
